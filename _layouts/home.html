@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+
+  <body>
+    <div class="bg-white">
+      <div class="relative overflow-hidden">
+        {% include header.html %}
+
+        <div class="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl p-6 lg:p-8">
+          <div class="flex justify-between items-center">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              {{ page.title }}
+            </h2>
+
+            <a href="mailto:info@voterheads.com?body=I%27m%20interested%20in%20learning%20more%20about%20a%20Voterheads%20subscription.&subject=Demo%20Request"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-lg font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-700 hover:text-white">
+              Request a Demo
+            </a>
+          </div>
+
+          <div class="mt-6 grid gap-16 pt-10 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
+            {{ content }}
+          </div>
+        </div>
+
+        {% include footer.html %}
+      </div>
+    </div>
+  </body>
+</html>
