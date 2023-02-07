@@ -10,7 +10,6 @@ layout: home
 {% endif %}
 
 {%- if posts.size > 0 -%}
-  {%- assign date_format = "%b %-d, %Y" -%}
   {%- for post in posts -%}
     <div>
       <p class="text-sm text-gray-500">
@@ -20,8 +19,8 @@ layout: home
       </p>
 
       <a href="{{ post.url | relative_url }}" class="mt-2 block">
-        <p class="text-xl font-semibold text-gray-900">{{ post.title | escape }}</p>
-        <p class="mt-3 text-base text-gray-500">{{ post.excerpt }}</p>
+        <h2 class="text-xl font-semibold text-gray-900">{{ post.title | escape }}</h2>
+        <div class="mt-3 text-base text-gray-500">{{ post.excerpt }}</div>
       </a>
 
       <div class="mt-3">
