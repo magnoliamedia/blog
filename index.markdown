@@ -49,3 +49,5 @@ layout: home
     </div>
   {%- endif %}
 {%- endif -%}
+
+<script defer data-domain="blog.voterheads.com" src="https://plausible.io/js/script.js"></script>
