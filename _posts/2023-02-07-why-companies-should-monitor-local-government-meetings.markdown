@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Why companies should monitor local government meetings
 ---
 
 Local government meetings play a crucial role in shaping the communities in
