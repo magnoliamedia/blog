@@ -1109,6 +1109,9 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.mb-8 {
+  margin-bottom: 2rem;
+}
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -1124,6 +1127,9 @@ video {
 .block {
   display: block;
 }
+.inline {
+  display: inline;
+}
 .flex {
   display: flex;
 }
@@ -1133,8 +1139,14 @@ video {
 .grid {
   display: grid;
 }
+.h-6 {
+  height: 1.5rem;
+}
 .h-14 {
   height: 3.5rem;
+}
+.w-6 {
+  width: 1.5rem;
 }
 .w-auto {
   width: auto;
@@ -1171,6 +1183,11 @@ video {
 }
 .gap-16 {
   gap: 4rem;
+}
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
