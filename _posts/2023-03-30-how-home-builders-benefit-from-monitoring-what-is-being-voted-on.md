@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How home builders benefit from monitoring what is being voted on
+title: How home builders benefit from monitoring what is being voted on at the local government level
 ---
 
 Homebuilders associations exist to help their member homebuilders grow and
