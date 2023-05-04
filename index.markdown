@@ -20,12 +20,14 @@ layout: home
 
       <a href="{{ post.url | relative_url }}" class="mt-2 block">
         <h2 class="text-xl font-semibold text-gray-900">{{ post.title | escape }}</h2>
-        <div class="mt-3 text-base text-gray-500">{{ post.excerpt }}</div>
+        <div class="mt-3 text-base text-gray-500">
+          {{ post.excerpt }}
+        </div>
       </a>
 
       <div class="mt-3">
         <a href="{{ post.url | relative_url }}" class="text-base font-semibold text-indigo-600 hover:text-indigo-500">
-          Read more
+          Continue reading&hellip;
         </a>
       </div>
     </div>
