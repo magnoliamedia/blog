@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why would a local government agency want to monitor other local government agency meetings?
+title: Why would a government agency want to monitor local government agency meetings?
 ---
 
 We recently discovered that a regional government agency, a special purpose
