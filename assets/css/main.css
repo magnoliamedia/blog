@@ -1,9 +1,10 @@
 ---
 ---
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@source "../..";
 
 @layer base {
   a {
@@ -19,7 +20,7 @@
   }
 
   thead {
-    @apply bg-green-200
+    @apply bg-green-200;
   }
 
   th {
@@ -31,6 +32,6 @@
   }
 
   input[type="submit"], button[type="submit"], .button {
-    @apply inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 cursor-pointer
+    @apply inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 cursor-pointer;
   }
 }
